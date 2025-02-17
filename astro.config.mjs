@@ -11,4 +11,9 @@ export default defineConfig({
       enabled: true,
     },
   }),
+  vite: {
+    define: {
+      "process.env": process.env,
+    },
+  },
 });
